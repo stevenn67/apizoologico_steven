@@ -1,0 +1,20 @@
+{
+  "name": "apizoologico_steven",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenn67/apizoologico_steven.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenn67/apizoologico_steven/issues"
+  },
+  "homepage": "https://github.com/stevenn67/apizoologico_steven#readme"
+}
