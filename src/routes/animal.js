@@ -15,7 +15,17 @@ router.get("/animals", (req, res) => {
     animalSchema.find()
         .then((data) => res.json(data))
         .catch((error) => res.json({ message: error }));
+       
 });
+
+//Consultar todos los animales
+router.get("/animals/all", (req, res) => {
+    animalSchema.find({edad:{$text:"luna"}})
+        .then((data) => res.json(data))
+        .catch((error) => res.json({ message: error }));
+       
+});
+
 //Modificar el nombre de un animal por su id
 router.put("/animals/:id", (req, res) => {
     const { id } = req.params;
